@@ -16,4 +16,4 @@ vim.keymap.set("n", "N", "Nzzzv")
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
 -- Debugging
-vim.keymap.set("n", "<leader>db", require("dap").continue())
+-- vim.keymap.set("n", "<leader>db", require("dap").continue())

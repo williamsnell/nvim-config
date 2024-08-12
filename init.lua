@@ -1,3 +1,4 @@
+require("ws")
 require("packer")
 
 require('onedark').setup {
