@@ -30,7 +30,7 @@ return require('packer').startup(function(use)
   use({'hrsh7th/cmp-buffer'})
 
   -- Debugging
-  use 'mfussenegger/nvim-dap'
+  use { 'rcarriga/nvim-dap-ui', requires= {'mfussenegger/nvim-dap'}}
   use 'mfussenegger/nvim-dap-python'
 
   use {"akinsho/toggleterm.nvim", tag = '*', config = function()
